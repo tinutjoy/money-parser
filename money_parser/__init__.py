@@ -7,7 +7,7 @@ __all__ = ('price_str', 'price_dec',)
 
 
 _CLEANED_PRICE_RE = re.compile('[+-]?(?:\d{1,3}[.,]?)+')
-_FRACTIONAL_PRICE_RE = re.compile('^([\d.,]+)[.,](\d{1,2})$')
+_FRACTIONAL_PRICE_RE = re.compile('^([\d.,]+)[.,](\d{1,5})$')
 
 _not_defined = object()
 
